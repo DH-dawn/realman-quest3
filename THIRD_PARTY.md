@@ -1,5 +1,8 @@
 # Third-party notices
 
+Original project code is licensed under AGPL-3.0-only; see LICENSE.
+Third-party components and adapted files remain subject to their applicable licenses and notices below.
+
 - XRoboToolkit PC Service / native SDK: https://github.com/XR-Robotics/XRoboToolkit-PC-Service
   Pinned Ubuntu 22.04 amd64 release v1.0.0; Apache-2.0 notice retained in licenses/XRoboToolkit_PC_Service_LICENSE.txt.
   Native installers are separate resources; installation instructions are in docs/native_runtime.md.
