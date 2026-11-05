@@ -155,6 +155,13 @@ RM65采用50Hz TCP JSON `movej_follow`，遥操使用官方离线运动学；策
 - `tools/infer/README.md`：云端连续推理。
 - `docs/single_inference.md`：单帧推理与输入文件准备。
 
+## 许可证
+
+Copyright (C) 2026 DH-dawn.
+
+本项目原创代码采用 **GNU Affero General Public License v3.0（AGPL-3.0-only）**，完整条款见[LICENSE](LICENSE)。
+第三方组件及其修改文件遵循各自适用的许可证，具体说明见[THIRD_PARTY.md](THIRD_PARTY.md)和`licenses/`。
+
 ## 第三方组件
 
 依赖组件和许可证说明见`THIRD_PARTY.md`及`licenses/`。

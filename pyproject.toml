@@ -7,6 +7,10 @@ name = "realman-quest3"
 version = "0.1.0"
 description = "Quest teleoperation, dual-D405 recording and cloud policy execution for RM65"
 readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+  "License :: OSI Approved :: GNU Affero General Public License v3",
+]
 requires-python = ">=3.10,<3.11"
 dependencies = [
   "Robotic_Arm>=1.1.4,<1.2",

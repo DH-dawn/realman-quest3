@@ -1,4 +1,4 @@
-include README.md THIRD_PARTY.md
+include README.md THIRD_PARTY.md LICENSE
 recursive-include Android_APK *.md
 recursive-include src/common/defaults *.json
 recursive-include src/convert *.json *.txt *.md
