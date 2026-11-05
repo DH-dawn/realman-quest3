@@ -1,0 +1,13 @@
+{
+  "cameras": {
+    "front": "000000000001",
+    "wrist": "000000000002"
+  },
+  "width": 640,
+  "height": 480,
+  "capture_fps": 30,
+  "record_fps": 10,
+  "max_camera_skew_s": 0.04,
+  "max_robot_age_s": 0.1,
+  "feedback_timeout_s": 1.0
+}

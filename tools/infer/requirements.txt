@@ -1,0 +1,4 @@
+# Communication dependencies only. Cloud model dependencies use the training conda pi05 environment.
+numpy>=1.24,<2
+Pillow>=9
+websockets>=14,<17

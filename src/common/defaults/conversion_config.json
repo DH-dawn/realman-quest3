@@ -1,0 +1,12 @@
+{
+  "input": null,
+  "output": "../../../datasets/rm65_dual_aligned",
+  "repo_id": "rm65_dual_aligned",
+  "fps": 10,
+  "image_size": 224,
+  "min_frames": 10,
+  "max_gripper_age": 0.5,
+  "task": null,
+  "action_source": "sent-target",
+  "dry_run": true
+}

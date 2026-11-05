@@ -1,0 +1,7 @@
+# Shared native export/read dependencies for pinned LeRobot v2.1 (no List alias).
+numpy==1.26.4
+pyarrow==21.0.0
+datasets==3.6.0
+fsspec==2025.3.0
+dill==0.3.8
+multiprocess==0.70.16

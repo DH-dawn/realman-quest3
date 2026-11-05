@@ -1,0 +1,10 @@
+{
+  "checkpoint": "checkpoints/pi05_rm65_dual_lora/rm65_smoke/5000",
+  "asset_id": null,
+  "host": "0.0.0.0",
+  "port": 8001,
+  "gpu": "7",
+  "num_steps": 10,
+  "default_prompt": "pick the bottle and place in the light brown box",
+  "inference_timeout_s": 30.0
+}

@@ -1,0 +1,18 @@
+{
+  "uri": "ws://SERVER_IP:8001",
+  "robot_config": "../../teleop/config/realman_teleop.json",
+  "follow_config": "../../teleop/config/realman_follow.json",
+  "camera_config": "../../recording/config/cameras_dual.json",
+  "prompt": "pick the bottle and place in the light brown box",
+  "execute_steps": 2,
+  "request_timeout_s": 5.0,
+  "max_prediction_age_s": 0.5,
+  "max_observation_age_s": 0.1,
+  "camera_timeout_s": 0.15,
+  "max_target_delta_deg": 8.0,
+  "workspace_radius_mm": 400.0,
+  "max_duration_s": 60.0,
+  "gripper_enabled": true,
+  "gripper_close_threshold": 0.3,
+  "gripper_open_threshold": 0.7
+}

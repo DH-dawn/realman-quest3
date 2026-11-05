@@ -1,0 +1,61 @@
+{
+  "T_flange_color_optical": [
+    [
+      -0.00975978675397371,
+      0.9791620624635298,
+      0.2028457591242263,
+      -0.05643559863344665
+    ],
+    [
+      -0.9999515526079878,
+      -0.009297145467925927,
+      -0.0032335001194647717,
+      0.012471918418780956
+    ],
+    [
+      -0.0012802341158213992,
+      -0.20286749004785096,
+      0.9792053627724338,
+      0.03180488962910666
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_flange_depth_optical": [
+    [
+      -0.010556291724708417,
+      0.979247328705972,
+      0.20239375074320146,
+      -0.056423704013110004
+    ],
+    [
+      -0.9998810712471659,
+      -0.008061240042313705,
+      -0.013148075759754067,
+      0.01247943043324102
+    ],
+    [
+      -0.011243673647346585,
+      -0.20250846977165282,
+      0.9792159793044433,
+      0.03181266278656088
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_frame": "D405 color optical: x right, y down, z forward",
+  "robot_frame": "Arm_Tip identity = flange; Base identity",
+  "translation_unit": "meter",
+  "source_path": "Original source-PC hand-eye result (provenance only; not read at runtime)",
+  "source_sha256": "a26fc269db4a27e7c10956598f94de7533264e8c485b38d764369d716f4faa2b",
+  "fitting_allowed": false,
+  "validation_status": "Example from the original D405 mount; verify or replace for your physical mount"
+}

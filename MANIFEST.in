@@ -1,0 +1,17 @@
+include README.md THIRD_PARTY.md
+recursive-include Android_APK *.md
+recursive-include src/common/defaults *.json
+recursive-include src/convert *.json *.txt *.md
+recursive-include examples *.py *.md
+recursive-include scripts *.sh *.rules
+recursive-include docs *.md *.json
+recursive-include licenses *.txt
+recursive-include third_party *.patch *.json *.md
+recursive-include tools *.py *.md *.txt *.json
+global-exclude *.pyc
+prune run
+prune datasets
+prune .native
+prune .runtime
+prune assets
+prune vendor

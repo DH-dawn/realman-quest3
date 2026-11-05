@@ -1,0 +1,41 @@
+{
+  "upstream": "https://github.com/GZF123/arx-televr",
+  "reference_commit": "cd557afbb9ec280df2d9e12e1582219b85ee1a53",
+  "reviewed": [
+    "README.md",
+    "arx5_vr/worker.py",
+    "config/vr.json",
+    "docs/INTERFACES.md"
+  ],
+  "architecture": [
+    "relative Grip clutch",
+    "6D relative orientation and translation",
+    "seeded inverse kinematics",
+    "continuous joint targets",
+    "separate recording",
+    "feedback-aware velocity governor",
+    "latency-matched tracking monitor",
+    "ordered STOP with independent fallback"
+  ],
+  "realman_backend": {
+    "model": "RM65, B-series, official Robotic_Arm 1.1.4 offline algorithm",
+    "tool": "Base / tcp Z=145mm",
+    "transport": "ordered persistent TCP JSON movej_follow with routed query/STOP replies",
+    "nominal_hz": 50,
+    "source": "native XRoboToolkit RealMan client r2"
+  },
+  "differences": [
+    "RealMan force-controlled Trigger close/open, not proportional ARX aperture",
+    "controller-side joint position interface, not ARX torque/gain API",
+    "no automatic Home or gravity-compensation mode"
+  ],
+  "protocol_sources": [
+    "https://develop.realman-robotics.com/robot/json/motionConfig/",
+    "https://develop.realman-robotics.com/robot/apipython/classes/algo/",
+    "https://develop.realman-robotics.com/robot4th/json/endTool/"
+  ],
+  "upstream_source_copied_into_adapter": false,
+  "hardware_acceptance": false,
+  "date": "2026-10-30",
+  "reviewed_worker_sha256": "f2114216d81d8eaa24f895a8d328cec73dba2674260c46a7e0ff1409d1ed8554"
+}

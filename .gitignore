@@ -1,0 +1,88 @@
+# Python环境、缓存和构建产物
+.venv*/
+venv/
+env/
+.conda/
+__pypackages__/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# IDE、系统文件和编辑器临时文件
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.tmp
+
+# 本机配置：遥操、采集、推理、转换；各config目录的README保留
+/examples/**/config/**/*.json
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+*.before-*
+.env
+.env.*
+!.env.example
+
+# 本机服务、SDK及设备进程锁；依赖锁文件不作全局忽略
+/.native/
+/.runtime/
+/.realman-*.lock
+/.realsense-*.lock
+/.xrobotoolkit-input.lock
+
+# 采集记录、诊断、转换数据集、模型和推理输出
+run/
+runs/
+datasets/
+checkpoints/
+models/
+logs/
+diagnostics/
+inference_outputs/
+validation/
+wandb/
+*.log
+*.parquet
+*.npz
+*.npy
+*.pth
+*.pt
+*.safetensors
+
+# 安装包、原生二进制和归档；Android_APK/README.md保留
+/assets/
+/vendor/
+/release/
+*.apk
+*.deb
+*.whl
+*.so
+*.so.*
+*.dll
+*.dylib
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# 公共资源继续保留：src/common/defaults/、src/convert/中的配置，
+# tools/infer/config.json、依赖清单、示例脚本、文档与许可证。

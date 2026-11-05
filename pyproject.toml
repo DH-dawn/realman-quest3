@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realman-quest3"
+version = "0.1.0"
+description = "Quest teleoperation, dual-D405 recording and cloud policy execution for RM65"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "Robotic_Arm>=1.1.4,<1.2",
+  "numpy>=2.2,<2.3",
+  "scipy>=1.15,<1.16",
+  "opencv-python-headless>=4.12,<4.13",
+  "pyrealsense2>=2.58,<2.60",
+]
+
+[project.optional-dependencies]
+infer = ["websockets>=14,<17", "Pillow>=9"]
+
+[project.scripts]
+realman-quest = "teleop.cli:entry_point"
+realman-infer = "inference.run_policy:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools.package-data]
+common = ["defaults/*.json"]
+convert = ["conversion_config.json", "requirements-server-data.txt", "README.md"]
